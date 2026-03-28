@@ -1,0 +1,25 @@
+{
+  "name": "shadow-os",
+  "version": "1.0.0",
+  "description": "ShadowOS — behavior-aware second brain (Notion + OpenAI + MCP)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "demo": "node src/index.js --demo",
+    "watch": "node src/index.js --watch",
+    "once": "node src/index.js --once",
+    "mcp": "node src/mcp/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "@notionhq/client": "^5.15.0",
+    "chokidar": "^5.0.0",
+    "dotenv": "^17.3.1",
+    "openai": "^6.33.0",
+    "zod": "^4.3.6"
+  }
+}
